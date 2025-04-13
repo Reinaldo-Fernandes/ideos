@@ -1,8 +1,10 @@
-export default function Dashboard() {
-  return (
-    <div className="container">
-      <h2>Dashboard</h2>
-      <p>Bem-vindo à plataforma de brainstorming colaborativa!</p>
-    </div>
-  );
-}
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./style.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
